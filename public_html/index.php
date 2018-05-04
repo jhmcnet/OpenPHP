@@ -1,5 +1,11 @@
 <?php 
 
+getcwd();
+
+print('<pre>');
+print(scandir(getcwd()));
+print('</pre>');
+
 session_start();
 
 ob_start();
