@@ -1,14 +1,14 @@
 <?php 
 
-getcwd();
+//getcwd();
 
-print('<pre>');
-print(scandir(getcwd()));
-print('</pre>');
+//print('<pre>');
+//print(scandir(getcwd()));
+//print('</pre>');
 
-session_start();
+//session_start();
 
-ob_start();
+//ob_start();
 
 if(!isset($_SESSION['erros'])){
 
