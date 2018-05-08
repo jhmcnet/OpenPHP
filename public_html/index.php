@@ -6,9 +6,9 @@
 //print(scandir(getcwd()));
 //print('</pre>');
 
-//session_start();
+session_start();
 
-//ob_start();
+ob_start();
 
 if(!isset($_SESSION['erros'])){
 
@@ -83,6 +83,6 @@ if(strtoupper($url[1]) == 'CONTROLE'){
   }
 
 ?>
-
+<script src="<?php echo $host ?>asset/js/agency.min.js"></script>
 </body>
 </html>

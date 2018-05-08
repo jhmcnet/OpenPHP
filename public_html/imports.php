@@ -28,7 +28,7 @@
 <script src="<?php echo $host ?>asset/js/contact_me.js"></script>
 
 <!-- Custom scripts for this template -->
-<script src="<?php echo $host ?>asset/js/agency.min.js"></script>
+<!--codigo retirado daqui
 
 <!-- jquery mask -->
 <script type="text/javascript" src="<?php echo $host ?>asset/js/jquery.mask.min.js"></script>
