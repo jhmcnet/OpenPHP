@@ -6,9 +6,9 @@
 //print(scandir(getcwd()));
 //print('</pre>');
 
-session_start();
+//session_start();
 
-ob_start();
+//ob_start();
 
 if(!isset($_SESSION['erros'])){
 
