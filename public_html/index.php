@@ -54,7 +54,7 @@ if(strtoupper($url[1]) == 'CONTROLE'){
 </head>
 
 <body>
-
+<script src="<?php echo $host ?>asset/js/agency.min.js"></script>
 <?php
 
   if(!file_exists($page.'.php')){
@@ -83,6 +83,6 @@ if(strtoupper($url[1]) == 'CONTROLE'){
   }
 
 ?>
-<script src="<?php echo $host ?>asset/js/agency.min.js"></script>
+
 </body>
 </html>
